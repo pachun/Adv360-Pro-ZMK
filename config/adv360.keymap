@@ -40,21 +40,21 @@
 
         default_layer {
             bindings = <
-        &kp GRAVE  &kp N1    &kp N2     &kp N3            &kp N4  &kp N5                        &none                                                                      &none  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
-          &kp TAB   &kp Q     &kp W      &kp E             &kp R   &kp T            &kp K_VOLUME_DOWN                                                            &kp K_VOLUME_UP   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
- &kp LEFT_CONTROL   &kp A     &kp S      &kp D             &kp F   &kp G                    &kp EQUAL          &none   &none                   &none      &none          &kp ESC   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
-        &kp LSHFT   &kp Z     &kp X      &kp C             &kp V   &kp B                                               &none                   &none                               &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-            &none   &none  &kp LEFT  &kp RIGHT  &kp LEFT_COMMAND                            &kp SPACE  &kp BACKSPACE   &none                   &none  &kp ENTER        &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &none
+        &kp GRAVE        &kp N1    &kp N2     &kp N3            &kp N4  &kp N5                        &none                                                                       &none  &kp N6    &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
+          &kp TAB         &kp Q     &kp W      &kp E             &kp R   &kp T                        &none                                                                       &none   &kp Y     &kp U      &kp I     &kp O     &kp P   &kp BSLH
+ &kp LEFT_CONTROL         &kp A     &kp S      &kp D             &kp F   &kp G            &kp C_VOLUME_DOWN          &none    &none                      &none   &none  &kp C_VOLUME_UP   &kp H     &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
+        &kp LSHFT         &kp Z     &kp X      &kp C             &kp V   &kp B                                                &none                      &none                            &kp N     &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
+ &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT  &kp RIGHT  &kp LEFT_COMMAND                            &kp SPACE  &kp BACKSPACE  &kp ESC                  &kp EQUAL   &mo 1        &kp SPACE          &kp DOWN     &kp UP  &kp LBKT  &kp RBKT      &none
             >;
         };
 
         layer_mod {
             bindings = <
-  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &none                                                                          &trans   &none       &none             &none              &none   &none      &none
-  &none         &none         &none         &none         &none         &none            &bootloader                                                                     &bootloader   &none       &none             &none              &none   &none      &none
-  &none         &none         &none         &none         &none         &none                  &none   &none   &none                  &bt BT_CLR       &none  &rgb_ug RGB_MEFS_CMD 5   &none   &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &none  &kp ENTER
-  &none         &none         &none         &none    &macro_ver         &none                                  &none                       &none                                       &none       &none             &none              &none   &none      &none
-  &none         &none         &none         &none         &none                                &none   &none   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG          &bl BL_INC        &bl BL_DEC              &none   &none      &none
+  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &none                                                                          &trans   &none       &none       &none             &none              &none      &none
+  &none         &none         &none         &none         &none         &none            &bootloader                                                                     &bootloader   &none       &none       &none             &none              &none      &none
+  &none         &none         &none         &none         &none         &none                  &none   &none   &none                  &bt BT_CLR       &none  &rgb_ug RGB_MEFS_CMD 5   &none   &kp EQUAL       &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp ENTER
+  &none         &none         &none         &none    &macro_ver         &none                                  &none                       &none                                       &none       &none       &none             &none              &none      &none
+  &none         &none         &none         &none         &none                                &none   &none   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG          &bl BL_INC  &bl BL_DEC             &none              &none      &none
             >;
         };
 
